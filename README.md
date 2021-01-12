@@ -1,1 +1,1 @@
-# spline_to_graphviz
+# Small Python program that can chart spline in graphviz  
