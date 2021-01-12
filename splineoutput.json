@@ -1,0 +1,325 @@
+{
+    "agentInfo": {
+        "name": "spline",
+        "version": "0.4.2"
+    },
+    "extraInfo": {
+        "appName": "Databricks Shell",
+        "attributes": [
+            {
+                "dataTypeId": "8915bd1f-63af-4322-9b6f-19d65658f3f5",
+                "id": "74d1c4b3-1678-4e52-bb86-ad4ad07f956b",
+                "name": "action"
+            },
+            {
+                "dataTypeId": "6b6d196d-64e2-410e-8a4d-68438ef519ef",
+                "id": "99a3bde6-85bf-4bad-81e0-92c7a37f56cf",
+                "name": "time"
+            },
+            {
+                "dataTypeId": "8915bd1f-63af-4322-9b6f-19d65658f3f5",
+                "id": "5659bcae-9ddb-44de-b0e9-7d4dcdb6f148",
+                "name": "action"
+            },
+            {
+                "dataTypeId": "6b6d196d-64e2-410e-8a4d-68438ef519ef",
+                "id": "3474566a-081e-4987-b74f-6f33d11a63ef",
+                "name": "time"
+            },
+            {
+                "dataTypeId": "8915bd1f-63af-4322-9b6f-19d65658f3f5",
+                "id": "7880e3e2-ac7c-4268-9c80-f92c76f85a82",
+                "name": "action"
+            },
+            {
+                "dataTypeId": "6b6d196d-64e2-410e-8a4d-68438ef519ef",
+                "id": "d1e331bd-f0b4-40e7-a161-8a153cafe549",
+                "name": "time"
+            },
+            {
+                "dataTypeId": "8915bd1f-63af-4322-9b6f-19d65658f3f5",
+                "id": "b012ae1b-3ec1-4851-8103-1667c03a35df",
+                "name": "action"
+            },
+            {
+                "dataTypeId": "6b6d196d-64e2-410e-8a4d-68438ef519ef",
+                "id": "5217cf31-19d8-4192-bbf9-93d1d2470f01",
+                "name": "time"
+            },
+            {
+                "dataTypeId": "8915bd1f-63af-4322-9b6f-19d65658f3f5",
+                "id": "0f555001-596f-43e1-9fdf-870819437819",
+                "name": "action"
+            },
+            {
+                "dataTypeId": "6b6d196d-64e2-410e-8a4d-68438ef519ef",
+                "id": "e6c7bb9e-afad-4b39-912b-9c66e97484e0",
+                "name": "time"
+            },
+            {
+                "dataTypeId": "8915bd1f-63af-4322-9b6f-19d65658f3f5",
+                "id": "f251c8cf-62a9-498d-af19-2b5d233f7b9f",
+                "name": "action"
+            },
+            {
+                "dataTypeId": "6b6d196d-64e2-410e-8a4d-68438ef519ef",
+                "id": "7603ee4f-8469-4b15-b301-bd39b8ac52e0",
+                "name": "time"
+            },
+            {
+                "dataTypeId": "9045e23f-3ab2-4b85-bc9e-03bb3b4e4bf3",
+                "id": "be1964a1-0d29-497a-aa92-e4196d3ab7d0",
+                "name": "actionCount"
+            }
+        ],
+        "dataTypes": [
+            {
+                "_typeHint": "dt.Simple",
+                "id": "8915bd1f-63af-4322-9b6f-19d65658f3f5",
+                "name": "string",
+                "nullable": true
+            },
+            {
+                "_typeHint": "dt.Simple",
+                "id": "6b6d196d-64e2-410e-8a4d-68438ef519ef",
+                "name": "long",
+                "nullable": true
+            },
+            {
+                "_typeHint": "dt.Simple",
+                "id": "42f53bc5-cb0a-4331-af59-aee0d9d8d851",
+                "name": "boolean",
+                "nullable": true
+            },
+            {
+                "_typeHint": "dt.Simple",
+                "id": "9045e23f-3ab2-4b85-bc9e-03bb3b4e4bf3",
+                "name": "long",
+                "nullable": false
+            },
+            {
+                "_typeHint": "dt.Simple",
+                "id": "92e3836b-373f-4ffd-bb8e-24c90f096709",
+                "name": "integer",
+                "nullable": false
+            }
+        ]
+    },
+    "id": "f4eccd48-2d38-4daf-9ab9-fdfe7b39f947",
+    "operations": {
+        "other": [
+            {
+                "childIds": [
+                    8
+                ],
+                "extra": {
+                    "name": "SubqueryAlias"
+                },
+                "id": 7,
+                "params": {
+                    "name": "`rawdata`"
+                },
+                "schema": [
+                    "5659bcae-9ddb-44de-b0e9-7d4dcdb6f148",
+                    "3474566a-081e-4987-b74f-6f33d11a63ef"
+                ]
+            },
+            {
+                "childIds": [
+                    7
+                ],
+                "extra": {
+                    "name": "SubqueryAlias"
+                },
+                "id": 6,
+                "params": {
+                    "name": "`r2`"
+                },
+                "schema": [
+                    "7880e3e2-ac7c-4268-9c80-f92c76f85a82",
+                    "d1e331bd-f0b4-40e7-a161-8a153cafe549"
+                ]
+            },
+            {
+                "childIds": [
+                    5
+                ],
+                "extra": {
+                    "name": "SubqueryAlias"
+                },
+                "id": 4,
+                "params": {
+                    "name": "`rawdata`"
+                },
+                "schema": [
+                    "0f555001-596f-43e1-9fdf-870819437819",
+                    "e6c7bb9e-afad-4b39-912b-9c66e97484e0"
+                ]
+            },
+            {
+                "childIds": [
+                    4
+                ],
+                "extra": {
+                    "name": "SubqueryAlias"
+                },
+                "id": 3,
+                "params": {
+                    "name": "`r1`"
+                },
+                "schema": [
+                    "f251c8cf-62a9-498d-af19-2b5d233f7b9f",
+                    "7603ee4f-8469-4b15-b301-bd39b8ac52e0"
+                ]
+            },
+            {
+                "childIds": [
+                    3,
+                    6
+                ],
+                "extra": {
+                    "name": "Join"
+                },
+                "id": 2,
+                "params": {
+                    "condition": {
+                        "_typeHint": "expr.Binary",
+                        "children": [
+                            {
+                                "_typeHint": "expr.AttrRef",
+                                "refId": "f251c8cf-62a9-498d-af19-2b5d233f7b9f"
+                            },
+                            {
+                                "_typeHint": "expr.AttrRef",
+                                "refId": "7880e3e2-ac7c-4268-9c80-f92c76f85a82"
+                            }
+                        ],
+                        "dataTypeId": "42f53bc5-cb0a-4331-af59-aee0d9d8d851",
+                        "symbol": "="
+                    },
+                    "joinType": "INNER"
+                },
+                "schema": [
+                    "f251c8cf-62a9-498d-af19-2b5d233f7b9f",
+                    "7603ee4f-8469-4b15-b301-bd39b8ac52e0",
+                    "7880e3e2-ac7c-4268-9c80-f92c76f85a82",
+                    "d1e331bd-f0b4-40e7-a161-8a153cafe549"
+                ]
+            },
+            {
+                "childIds": [
+                    2
+                ],
+                "extra": {
+                    "name": "Aggregate"
+                },
+                "id": 1,
+                "params": {
+                    "aggregateExpressions": [
+                        {
+                            "_typeHint": "expr.AttrRef",
+                            "refId": "f251c8cf-62a9-498d-af19-2b5d233f7b9f"
+                        },
+                        {
+                            "_typeHint": "expr.Alias",
+                            "alias": "actionCount",
+                            "child": {
+                                "_typeHint": "expr.Generic",
+                                "children": [
+                                    {
+                                        "_typeHint": "expr.Generic",
+                                        "children": [
+                                            {
+                                                "_typeHint": "expr.Literal",
+                                                "dataTypeId": "92e3836b-373f-4ffd-bb8e-24c90f096709",
+                                                "value": 1
+                                            }
+                                        ],
+                                        "dataTypeId": "9045e23f-3ab2-4b85-bc9e-03bb3b4e4bf3",
+                                        "exprType": "aggregate.Count",
+                                        "name": "count"
+                                    }
+                                ],
+                                "dataTypeId": "9045e23f-3ab2-4b85-bc9e-03bb3b4e4bf3",
+                                "exprType": "aggregate.AggregateExpression",
+                                "name": "aggregateexpression",
+                                "params": {
+                                    "isDistinct": false,
+                                    "mode": "Complete",
+                                    "resultIds": [
+                                        "ExprId(215,4507ca34-5cf4-4c96-8a3c-6ed18c5c06a6)"
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "groupingExpressions": [
+                        {
+                            "_typeHint": "expr.AttrRef",
+                            "refId": "f251c8cf-62a9-498d-af19-2b5d233f7b9f"
+                        }
+                    ]
+                },
+                "schema": [
+                    "f251c8cf-62a9-498d-af19-2b5d233f7b9f",
+                    "be1964a1-0d29-497a-aa92-e4196d3ab7d0"
+                ]
+            }
+        ],
+        "reads": [
+            {
+                "extra": {
+                    "name": "LogicalRelation",
+                    "sourceType": "JSON"
+                },
+                "id": 8,
+                "inputSources": [
+                    "dbfs:/databricks-datasets/structured-streaming/events"
+                ],
+                "params": {
+                    "inferschema": "true"
+                },
+                "schema": [
+                    "74d1c4b3-1678-4e52-bb86-ad4ad07f956b",
+                    "99a3bde6-85bf-4bad-81e0-92c7a37f56cf"
+                ]
+            },
+            {
+                "extra": {
+                    "name": "LogicalRelation",
+                    "sourceType": "JSON"
+                },
+                "id": 5,
+                "inputSources": [
+                    "dbfs:/databricks-datasets/structured-streaming/events"
+                ],
+                "params": {
+                    "inferschema": "true"
+                },
+                "schema": [
+                    "b012ae1b-3ec1-4851-8103-1667c03a35df",
+                    "5217cf31-19d8-4192-bbf9-93d1d2470f01"
+                ]
+            }
+        ],
+        "write": {
+            "append": false,
+            "childIds": [
+                1
+            ],
+            "extra": {
+                "destinationType": "CSV",
+                "name": "InsertIntoHadoopFsRelationCommand"
+            },
+            "id": 0,
+            "outputSource": "dbfs:/tmp/pyaggaction.csv",
+            "params": {
+                "path": "/tmp/pyaggaction.csv"
+            }
+        }
+    },
+    "systemInfo": {
+        "name": "spark",
+        "version": "2.4.5"
+    }
+}
